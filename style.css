@@ -94,7 +94,7 @@ h1 {
     }
 
     .table tbody td[colspan] {
-        justify-content: flex-start !important;
+        display: block !important;
         text-align: left !important;
     }
 
