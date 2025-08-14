@@ -38,10 +38,23 @@ h1 {
     background-color: #e9ecef;
 }
 
+/* Price value colors */
 .table tbody td.price-normal { color: black; }
 .table tbody td.price-5 { color: red; }
 .table tbody td.price-10 { color: green; }
 .table tbody td.price-15 { color: blue; }
+
+/* Header background colors */
+.table thead th.price-5 {
+    background-color: #d9534f; /* Red */
+}
+.table thead th.price-10 {
+    background-color: #5cb85c; /* Green */
+}
+.table thead th.price-15 {
+    background-color: #428bca; /* Blue */
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
